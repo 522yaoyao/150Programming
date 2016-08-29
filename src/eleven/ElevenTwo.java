@@ -28,6 +28,7 @@ public class ElevenTwo {
 	public static String  sortChar(String s){
 		char[] a=s.toCharArray();
 		char tmp;
+		//用冒泡法进行排序；
 		for(int i=0;i<a.length-1;i++){
 			for(int j=0;j<a.length-i-1;j++){
 				if(a[j]>a[j+1]){
@@ -38,7 +39,9 @@ public class ElevenTwo {
 			}
 		}
 		return new String(a);
+		//返回 char 数组参数的特定子数组的字符串表示形式；
 	//return String.valueOf(a);
+		//返回一个对象的字符串形式；
 	 //return a.toString();
 	}
 public static void sort(String[] str){
