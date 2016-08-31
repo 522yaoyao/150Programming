@@ -15,7 +15,7 @@ public class Node {
 	public void setNext(Node node){
 		next=node;
 	}
-     public int length(Node node){
+    public int length(Node node){
     	 int i=0;
     	 while(node!=null){
     		 i++;
