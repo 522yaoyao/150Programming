@@ -12,6 +12,7 @@ public class OneTen {
 		for(int i=s.length-1;i>=0;i--){
 		 str2.append(s[i]);
 		 str2.append(" ");
+		 System.out.println(str2);
 		}
    return str2.toString();
    //String 类型传值；
