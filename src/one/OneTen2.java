@@ -2,6 +2,11 @@ package one;
 
 import java.util.*;
 
+/**
+ * 将一句话中的单词
+ * @author zx
+ *
+ */
 public class OneTen2 {
 	public static void main(String[] args){
 		Scanner in=new Scanner(System.in);
