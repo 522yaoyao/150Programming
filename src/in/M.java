@@ -17,6 +17,11 @@ public class M {
 	            }
 	        }
 	    }
+	 /**
+	  * 将一个int数组去重排序；
+	  * @param a
+	  * @return
+	  */
 	    public static int[] returnArr(int[] a){
 	        Set<Integer> set=new TreeSet<Integer>();
 	        for(int i=0;i<a.length;i++){
