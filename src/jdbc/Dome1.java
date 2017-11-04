@@ -29,8 +29,9 @@ public class Dome1 {
 			con=DriverManager.getConnection(url, user, password);
 			 System.out.println("数据库连接成功");
 			 String sql="insert into table_1 values(21,'hah',10,'sc')";
+			  String sql1="insert into sys_config values(244,'hah',0)";
 			  stmt=con.createStatement();
-			 int rs=stmt.executeUpdate(sql);
+			 int rs=stmt.executeUpdate(sql1);
 			 System.out.println(rs);
 			 } catch (SQLException e) {
 			e.printStackTrace();
