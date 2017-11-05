@@ -1,4 +1,4 @@
-package practice;
+package thread;
 
 public class SynTwo extends Thread{
 	static Object lock1=new Object();

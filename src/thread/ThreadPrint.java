@@ -1,4 +1,4 @@
-package practice;
+package thread;
 
 public class ThreadPrint {
 	/**

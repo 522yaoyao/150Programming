@@ -1,4 +1,4 @@
-package practice;
+package thread;
 
 public class SyncExample {
 	private static Object lockObject=new Object();

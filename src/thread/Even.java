@@ -1,4 +1,4 @@
-package practice;
+package thread;
 
 public class Even extends Thread{
 	public Even(String s){
