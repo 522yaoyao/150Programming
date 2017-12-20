@@ -11,8 +11,8 @@ public class Test {
 		Animals dog=new Dog();
 		Animals cat=new Cat();
 		//多态的实现；
-		dog.print();
-		dog.print();
+		dog.print();//去父类中寻找对应的方法，子类如果重写了这个方法就调用子类的
+		cat.print();
 	}
 
 }
